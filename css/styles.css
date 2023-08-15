@@ -1,0 +1,60 @@
+
+
+main{
+    
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: #D6C3C9;
+}
+
+.green{
+    display: none;
+
+}
+
+.blue{
+    display: block;
+}
+
+#productos{
+    display: flex !important;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+}
+.producto{
+    width: 40%;
+    height: 140px;
+}
+
+.modelo{
+ font-weight: bold;
+}
+
+.precio{
+
+}
+
+.stock{
+color: green;
+}
+
+.imagenes{
+    height: 100px;
+    width: 100px;
+}
+footer h2{
+    text-align: center;
+}
+footer .redes{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.redes img{
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+}
